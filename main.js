@@ -69,7 +69,7 @@ function getMouse(e, canvas) {
 function handlePercentage(filledInPixels) {
   filledInPixels = filledInPixels || 0;
   // console.log(filledInPixels + '%');
-  if (filledInPixels > 65) {
+  if (filledInPixels > 50) {
     canvas.parentNode.removeChild(canvas);
   }
 }
